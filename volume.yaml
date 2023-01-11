@@ -30,7 +30,7 @@ spec:
         - key: kubernetes.io/hostname
           operator: In
           values:
-          - dcksv-kub-worker-01
+          - worker-node01
 
 ---
 apiVersion: v1
