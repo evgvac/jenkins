@@ -18,5 +18,5 @@ spec:
               service:
                 name: jenkins-server
                 port:
-                  number: 8080
+                  number: 443
             path: /
