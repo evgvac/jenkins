@@ -21,7 +21,7 @@ spec:
       containers:
         - name: jenkins
 #          image: jenkins/jenkins:lts
-          image: dcksv-linux-repo.kronshtadt.ru:5000/jenkins:lts
+          image: dcksv-linux-repo.kronshtadt.ru:5000/jenkins:latest
           resources:
             limits:
               memory: "2Gi"
